@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>CustomTTT</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-3 publication-title">CustomTTT: Motion and Appearance Customized Video Generation via Test-Time Training</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=1Ezgfw8AAAAJ" target="_blank">Xiuli Bi</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="#" target="_blank">Jian Lu</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=fXlz210AAAAJ" target="_blank">Bo Liu</a><sup>1</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://vinthony.github.io/academic" target="_blank">Xiaodong Cun</a><sup>2*</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://yzhang2016.github.io" target="_blank">Yong Zhang</a><sup>3</sup>,
+                  </span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=M17E3HEAAAAJ" target="_blank">Weisheng Li</a><sup>1</sup>
+                  </span>
+                  <span class="author-block">
+                    <a href="#" target="_blank">Bin Xiao</a><sup>1</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Chongqing University of Posts and Telecommunications</span>&nbsp;&nbsp;
+                    <span class="author-block"><sup>2</sup>GVC Lab, Great Bay University</span>&nbsp;&nbsp;
+                    <span class="author-block"><sup>3</sup>Meituan</span>&nbsp;&nbsp;
+                  </div>
+                  
+                  <br>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                    <span class="link-block">
+                        <a href="https://arxiv.org/abs/2408.13239" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                      </a>
+                    </span>
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="./static/pdf/sup.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="https://github.com/customttt/CustomTTT"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                          <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code (to be released)</span>
+                      </a>
+                  </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="hero teaser is-light" align="center">
+  <div class="container is-max-desktop">
+    <br>
+    <h2 class="title is-3">Overview: Summary of the Generated Videos</h2>
+    
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/main_result/videos/video.mp4"
+        type="video/mp4">
+      </video>
+      <!-- <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2> -->
+    </div>
+  </div>
+</section>
+
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Benefiting from large-scale pre-training of text-video pairs,
+current text-to-video (T2V) diffusion models can generate
+high-quality videos from the text description. Besides, given
+some reference images or videos, the parameter-efficient finetuning method, i.e. LoRA, can generate high-quality customized concepts, e.g., the specific subject or the motions
+from a reference video. However, combining the trained multiple concepts from different references into a single network
+shows obvious artifacts. To this end, we propose CustomTTT,
+where we can joint custom the appearance and the motion of
+the given video easily. In detail, we first analyze the prompt
+influence in the current video diffusion model and find the
+LoRAs are only needed for the specific layers for appearance and motion customization. Besides, since each LoRA
+is trained individually, we propose a novel test-time training technique to update parameters after combination utilizing the trained customized models. We conduct detailed experiments to verify the effectiveness of the proposed methods. Our method outperforms several state-of-the-art works
+in both qualitative and quantitative evaluations. The code will
+be available.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-">
+          <h2 class="title is-3">Method</h2>
+          <div class="content has-text-justified">
+        <div>
+          <td colspan="3"><img src="static/images/pipeline.png" alt="" width="1000" /></td>
+        </div>
+      <p>The overall pipeline. We first train the LoRAs on the specific layers for appearance (a) and motion (b) customization
+        individually. Then, we design a test-time training method to further improve the results when combining.</p>
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End paper poster -->
+
+<!-- video preload="auto"carousel -->
+<section class="hero is-small">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <h2 class="title is-3">Comparison with SOTA</h2>
+          <div class="content has-text-justified">
+            <div id="results-carousel" class="swiper" style="margin: 0 auto; max-width: 1024px; position: relative;">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <video preload="auto" poster="" id="video1" autoplay controls muted loop style="display: block; margin: 0 auto;" width="1024px">
+                    <source src="static/images/compare/compare1.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="swiper-slide">
+                  <video preload="auto" poster="" id="video2" autoplay controls muted loop style="display: block; margin: 0 auto;" width="1024px">
+                    <source src="static/images/compare/compare2.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="swiper-slide">
+                  <video preload="auto" poster="" id="video3" autoplay controls muted loop style="display: block; margin: 0 auto;" width="1024px">
+                    <source src="static/images/compare/compare3.mp4" type="video/mp4">
+                  </video>
+                </div>
+                <div class="swiper-slide">
+                  <video preload="auto" poster="" id="video4" autoplay controls muted loop style="display: block; margin: 0 auto;" width="1024px">
+                    <source src="static/images/compare/compare4.mp4" type="video/mp4">
+                  </video>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <!-- Add Navigation -->
+              <div class="swiper-button-next custom-next-button" style="position: absolute; top: 50%; transform: translateY(-50%); right: 10px;">
+                <span class="icon is-large">
+                  <i class="fas fa-chevron-right" style="font-size: 2rem; color: #555;"></i>
+                </span>
+              </div>
+              <div class="swiper-button-prev custom-prev-button" style="position: absolute; top: 50%; transform: translateY(-50%); left: 10px;">
+                <span class="icon is-large">
+                  <i class="fas fa-chevron-left" style="font-size: 2rem; color: #555;"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p align="center">Qualitative comparison of customized video generation with both subjects and motions. <br>Without guidance from additional videos, our method significantly outperforms in terms of concept combination.</p>
+  </section>
+  
+  
+  
+  
+<!-- End video preload="auto"carousel -->
+
+
+
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column custom-width">
+          <h2 class="title is-3">References</h2>
+          <div class="content has-text-justified">
+            <p>
+              <a name="customdiffusion" id="customdiffusion"></a>
+              [1] Wei, Yujie, et al. "Dreamvideo: Composing your dream videos with customized subject and motion." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.
+            </p>
+            <p>
+              <a name="dreamvideo" id="dreamvideo"></a>
+              [2] Zhao, Rui, et al. "Motiondirector: Motion customization of text-to-video diffusion models." European Conference on Computer Vision. Springer, Cham, 2025.
+            </p>
+  
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>  
+</section>
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{wu2024customttt,
+        title={CustomTTT: Motion and Appearance Customized Video Generation via Test-Time Training},
+        author={},
+        journal={},
+        year={2025}
+      }
+    </code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+    <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        const videoWrappers = document.querySelectorAll('.video-wrapper');
+      
+        videoWrappers.forEach(wrapper => {
+          const defaultVideo = wrapper.querySelector('.default-video');
+          const aspectRatio = defaultVideo.videoWidth / defaultVideo.videoHeight;
+          const height = wrapper.offsetWidth / aspectRatio;
+      
+          wrapper.style.height = `${height}px`;
+      
+          wrapper.addEventListener('mouseenter', () => {
+            defaultVideo.pause();
+            hoverVideo.play();
+          });
+      
+          wrapper.addEventListener('mouseleave', () => {
+            defaultVideo.play();
+            hoverVideo.pause();
+          });
+        });
+      }); 
+      $(document).ready(function() {
+        var carouselItems = $('.carousel .item');
+        var numItems = carouselItems.length;
+        var numVideos = 5;
+        var currentIndex = 0;
+    
+        $('.carousel').on('click', function() {
+          currentIndex++;
+          if (currentIndex + numVideos <= numItems) {
+            carouselItems.removeClass('active');
+            carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+          } else {
+            currentIndex = 0;
+            carouselItems.removeClass('active');
+            carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+          }
+        });
+    
+        carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+      });
+
+      document.addEventListener('DOMContentLoaded', () => {
+  new Swiper('#results-carousel', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 5000,
+    },
+  });
+});
+
+
+    </script>
+</body>
+</html>
