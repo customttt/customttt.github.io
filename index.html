@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
 
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
@@ -25,27 +26,29 @@
 
 
   <title>CustomTTT</title>
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Roboto+Slab:wght@600&display=swap"
+    rel="stylesheet">
 
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
   <script defer src="static/js/fontawesome.all.min.js"></script>
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </head>
+
 <body>
 
   <section class="hero">
@@ -53,149 +56,364 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-3 publication-title">CustomTTT: Motion and Appearance Customized Video Generation via Test-Time Training</h1>
+            <h1 class="title is-3 publication-title">CustomTTT: Motion and Appearance Customized Video Generation via
+              Test-Time Training</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=1Ezgfw8AAAAJ" target="_blank">Xiuli Bi</a><sup>1</sup>,</span>
-                <span class="author-block">
-                  <a href="#" target="_blank">Jian Lu</a><sup>1</sup>,</span>
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=fXlz210AAAAJ" target="_blank">Bo Liu</a><sup>1</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://vinthony.github.io/academic" target="_blank">Xiaodong Cun</a><sup>2*</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://yzhang2016.github.io" target="_blank">Yong Zhang</a><sup>3</sup>,
-                  </span>
-                  <span class="author-block">
-                    <a href="https://scholar.google.com/citations?user=M17E3HEAAAAJ" target="_blank">Weisheng Li</a><sup>1</sup>
-                  </span>
-                  <span class="author-block">
-                    <a href="#" target="_blank">Bin Xiao</a><sup>1</sup>
-                  </span>
-                  </div>
+                <a href="https://scholar.google.com/citations?user=1Ezgfw8AAAAJ" target="_blank">Xiuli
+                  Bi</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="#" target="_blank">Jian Lu</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=fXlz210AAAAJ" target="_blank">Bo Liu</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://vinthony.github.io/academic" target="_blank">Xiaodong Cun</a><sup>2*</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://yzhang2016.github.io" target="_blank">Yong Zhang</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=M17E3HEAAAAJ" target="_blank">Weisheng
+                  Li</a><sup>1</sup>
+              </span>
+              <span class="author-block">
+                <a href="#" target="_blank">Bin Xiao</a><sup>1,4</sup>
+              </span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>Chongqing University of Posts and Telecommunications</span>&nbsp;&nbsp;
-                    <span class="author-block"><sup>2</sup>GVC Lab, Great Bay University</span>&nbsp;&nbsp;
-                    <span class="author-block"><sup>3</sup>Meituan</span>&nbsp;&nbsp;
-                  </div>
-                  
-                  <br>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Chongqing University of Posts and
+                Telecommunications</span>&nbsp;&nbsp;
+              <span class="author-block"><sup>2</sup>GVC Lab, Great Bay University</span>&nbsp;&nbsp;
+              <span class="author-block"><sup>3</sup>Meituan</span>&nbsp;&nbsp;
+              <span class="author-block"><sup>4</sup>Jinan Inspur Data Technology Co., Ltd.</span>&nbsp;&nbsp;
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                    <span class="link-block">
-                        <a href="https://arxiv.org/abs/2408.13239" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="ai ai-arxiv"></i>
-                        </span>
-                        <span>arXiv</span>
-                      </a>
+            <br>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2408.13239" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
                     </span>
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="./static/pdf/sup.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Supplementary PDF link -->
+                <span class="link-block">
+                  <a href="./static/pdf/sup.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Supplementary</span>
+                  </a>
+                </span>
 
-                  <span class="link-block">
-                    <a href="https://github.com/customttt/CustomTTT"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                          <i class="fab fa-github"></i>
-                      </span>
-                      <span>Code (to be released)</span>
-                      </a>
-                  </span>
+                <span class="link-block">
+                  <a href="https://github.com/customttt/CustomTTT"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (to be released)</span>
+                  </a>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="hero teaser is-light" align="center">
-  <div class="container is-max-desktop">
-    <br>
-    <h2 class="title is-3">Overview: Summary of the Generated Videos</h2>
-    
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/main_result/videos/video.mp4"
-        type="video/mp4">
-      </video>
-      <!-- <h2 class="subtitle has-text-centered">
+  </section>
+  <section class="hero teaser is-light" align="center">
+    <div class="container is-max-desktop">
+      <br>
+      <h2 class="title is-3">Overview: Summary of the Generated Videos</h2>
+
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <!-- Your video here -->
+          <source src="static/main_result/videos/video.mp4" type="video/mp4">
+        </video>
+        <!-- <h2 class="subtitle has-text-centered">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
       </h2> -->
-    </div>
-  </div>
-</section>
-
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="hero is-small">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Benefiting from large-scale pre-training of text-video pairs,
-current text-to-video (T2V) diffusion models can generate
-high-quality videos from the text description. Besides, given
-some reference images or videos, the parameter-efficient finetuning method, i.e. LoRA, can generate high-quality customized concepts, e.g., the specific subject or the motions
-from a reference video. However, combining the trained multiple concepts from different references into a single network
-shows obvious artifacts. To this end, we propose CustomTTT,
-where we can joint custom the appearance and the motion of
-the given video easily. In detail, we first analyze the prompt
-influence in the current video diffusion model and find the
-LoRAs are only needed for the specific layers for appearance and motion customization. Besides, since each LoRA
-is trained individually, we propose a novel test-time training technique to update parameters after combination utilizing the trained customized models. We conduct detailed experiments to verify the effectiveness of the proposed methods. Our method outperforms several state-of-the-art works
-in both qualitative and quantitative evaluations. The code will
-be available.
-          </p>
-        </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+  </section>
 
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="hero is-small">
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
-        <div class="column is-">
-          <h2 class="title is-3">Method</h2>
-          <div class="content has-text-justified">
-        <div>
-          <td colspan="3"><img src="static/images/pipeline.png" alt="" width="1000" /></td>
+        <div class="column" style="margin-top: 10px;">
+
+          <!-- Key Observation 1 -->
+          <h3 class="title is-4">🔍 Key Observation 1: Not All Layers Matter in Video Customization</h3>
+          <div class="columns is-centered">
+            <div class="column is-10">
+              <p class="has-text-left">
+                By analyzing the effects of injecting text embeddings p and p* across different layers of the U-Net, our
+                experiments demonstrate that for appearance customization, text embedding injection solely at layers 2
+                and 6 achieves comparable results to full-layer injection.
+              </p>
+              <!-- 新增的提示文字 -->
+              <p class="has-text-centered mt-4 mb-3">
+                <span class="has-text-weight-bold" style="font-size: 2rem; letter-spacing: 1px;">
+                  <span style="font-family: 'Roboto Slab', monospace; color: #485fc7;">p="A koala"</span>
+                  &nbsp;
+                  <span style="font-family: 'Roboto Slab', serif; color: #e6523a;">p*="A tiger"</span>
+                </span>
+              </p>
+              <!-- 新增的视频行 -->
+              <div class="columns is-mobile is-centered mt-4">
+                <div class="column is-3">
+                  <video autoplay controls muted loop width="100%">
+                    <source src="static/images/layer_result/subject/1.mp4" type="video/mp4">
+                  </video>
+                  <p class="has-text-centered is-size-7 mt-2">
+                  <p style="font-size: 1.5rem; text-align: center;">$$V_{p^{*} \rightarrow i\neq 6, p \rightarrow j\neq i}$$</p>
+                  </p>
+                </div>
+                <div class="column is-3">
+                  <video autoplay controls muted loop width="100%">
+                    <source src="static/images/layer_result/subject/2.mp4" type="video/mp4">
+                  </video>
+                  <p class="has-text-centered is-size-7 mt-2">
+                  <p style="font-size: 1.5rem; text-align: center;">$$V_{p^{*} \rightarrow i=6, p \rightarrow j\neq i}$$</p>
+                  </p>
+                </div>
+                <div class="column is-3">
+                  <video autoplay controls muted loop width="100%">
+                    <source src="static/images/layer_result/subject/3.mp4" type="video/mp4">
+                  </video>
+                  <p class="has-text-centered is-size-7 mt-2">
+                  <p style="font-size: 1.5rem; text-align: center;">$$V_{p^{*} \rightarrow i=2,6, p \rightarrow j\neq i}$$</p>
+                  </p>
+                </div>
+                <div class="column is-3">
+                  <video autoplay controls muted loop width="100%">
+                    <source src="static/images/layer_result/subject/4.mp4" type="video/mp4">
+                  </video>
+                  <p class="has-text-centered is-size-7 mt-2">
+                  <p style="font-size: 1.5rem; text-align: center;">$$V_{p^{*} \rightarrow all}$$</p>
+                  </p>
+                </div>
+              </div>
+              <p class="has-text-left">
+                For motion, injecting the text embedding into only layers 2 and 4 can achieve the effect of injecting it
+                into all layers.
+              </p>
+              <p class="has-text-centered mt-4 mb-3">
+                <span class="has-text-weight-bold" style="font-size: 2rem; letter-spacing: 1px;">
+                  <span style="font-family: 'Roboto Slab', monospace; color: #485fc7;">p="A dog is swimming"</span>
+                  &nbsp;
+                  <span style="font-family: 'Roboto Slab', serif; color: #e6523a;">p*="A dog is running"</span>
+                </span>
+              </p>
+              <div class="columns is-mobile is-centered mt-4">
+                <div class="column is-3">
+                  <video autoplay controls muted loop width="100%">
+                    <source src="static/images/layer_result/motion/1.mp4" type="video/mp4">
+                  </video>
+                  <p class="has-text-centered is-size-7 mt-2">
+                  <p style="font-size: 1.5rem; text-align: center;">$$V_{p^{*} \rightarrow i\neq 2, p \rightarrow j\neq i}$$</p>
+                  </p>
+                </div>
+                <div class="column is-3">
+                  <video autoplay controls muted loop width="100%">
+                    <source src="static/images/layer_result/motion/2.mp4" type="video/mp4">
+                  </video>
+                  <p class="has-text-centered is-size-7 mt-2">
+                  <p style="font-size: 1.5rem; text-align: center;">$$V_{p^{*} \rightarrow i=2, p \rightarrow j\neq i}$$</p>
+                  </p>
+                </div>
+                <div class="column is-3">
+                  <video autoplay controls muted loop width="100%">
+                    <source src="static/images/layer_result/motion/3.mp4" type="video/mp4">
+                  </video>
+                  <p class="has-text-centered is-size-7 mt-2" >
+                  <p style="font-size: 1.5rem; text-align: center;">$$V_{p^{*} \rightarrow i=2,4, p \rightarrow j\neq i}$$</p>
+                  </p>
+                </div>
+                <div class="column is-3">
+                  <video autoplay controls muted loop width="100%">
+                    <source src="static/images/layer_result/motion/4.mp4" type="video/mp4">
+                  </video>
+                  <p class="has-text-centered is-size-7 mt-2">
+                  <p style="font-size: 1.5rem; text-align: center;">$$V_{p^{*} \rightarrow all}$$</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-      <p>The overall pipeline. We first train the LoRAs on the specific layers for appearance (a) and motion (b) customization
-        individually. Then, we design a test-time training method to further improve the results when combining.</p>
       </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <!-- Paper poster -->
+
+  <section class="hero is-small is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column" style="margin-top: 10px;">
+
+          <h3 class="title is-4">💡 Key Observation 2: Test-Time Training Improves Concept Combination</h3>
+          <div class="columns is-centered">
+            <div class="column is-10">
+              <p class="has-text-left">
+                Directly combining the pre-trained spatial LoRA and temporal LoRA for inference can lead to issues such
+                as text-video inconsistency and artifacts in the generated results. Therefore, it is necessary to
+                introduce an additional Test-Time Training phase to reduce the distribution gap between the two, thereby
+                improving the quality of the generated video.
+              </p>
+
+                        <!-- 图片网格 -->
+          <!-- 主容器 -->
+          <div class="container mt-5">
+            <!-- 上方输入区域 -->
+            <div class="columns is-centered">
+              <div class="column is-half">
+                <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 1.5rem; align-items: center;">
+                  <!-- 左侧 2x2 图片网格 -->
+                  <div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, 1fr); gap: 0.5rem;">
+                    <img src="static/images/ttt/image/02.jpg" alt="Image 1" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="static/images/ttt/image/03.jpg" alt="Image 2" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="static/images/ttt/image/04.jpg" alt="Image 3" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="static/images/ttt/image/05.jpg" alt="Image 4" style="width: 100%; height: 100%; object-fit: cover;">
+                  </div>
+                  
+                  <!-- 中间的 "+" 号 -->
+                  <div style="text-align: center; font-size: 3rem; font-weight: bold; color: #FF6347; transform: scale(1.2);">
+                    +
+                  </div>
+                  
+                  <!-- 右侧 GIF -->
+                  <div>
+                    <img src="static/images/ttt/video/playguitar.gif" alt="GIF Preview" style="width: 100%; height: 100%; object-fit: cover;">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>   
+              
+
+          <!-- 两组例子并排展示 -->
+          <div class="columns is-centered mt-5 mb-5"> <!-- 添加上下边距 -->
+            <div class="column is-11"> <!-- 增加宽度以容纳两组 -->
+              <div class="columns">
+                <!-- 第一组对比 -->
+                <div class="column is-6" style="margin-right: 2rem;"> <!-- 增加右边距 -->
+                  <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; align-items: center;">
+                    <!-- 左侧 GIF -->
+                    <div style="width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="static/images/ttt/pre1.gif" alt="Before TTT" style="width: 100%; height: 100%; object-fit: cover;">
+                      <p class="has-text-centered mt-2 has-text-weight-semibold" style="color: #485fc7; font-size: 0.9rem;">
+                        Without Test-Time Training
+                      </p>
+                    </div>
+                    
+                    <!-- 中间的箭头 -->
+                    <div style="text-align: center;">
+                      <span class="icon">
+                        <i class="fas fa-arrow-right" style="font-size: 1.8rem; color: #FF6347; 
+                           text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+                           animation: arrow-pulse 2s infinite;"></i>
+                      </span>
+                    </div>
+                    
+                    <!-- 右侧 GIF -->
+                    <div style="width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="static/images/ttt/after1.gif" alt="After TTT" style="width: 100%; height: 100%; object-fit: cover;">
+                      <p class="has-text-centered mt-2 has-text-weight-semibold" style="color: #e6523a; font-size: 0.9rem;">
+                        With Test-Time Training
+                      </p>
+                    </div>
+                  </div>
+                          <!-- 添加描述文本 -->
+                          <p class="has-text-centered mt-3" style="font-size: 0.9rem; color: #555;">
+                            A <span style="color: purple; font-weight: bold; font-style: italic;">teedy bear</span> is 
+                            <span style="color: orange; font-weight: bold; font-style: italic;">playing guitar</span> on the snow.
+                          </p>
+                </div>
+
+                <!-- 第二组对比 -->
+                <div class="column is-6" style="margin-left: 2rem;"> <!-- 增加左边距 -->
+                  <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 1rem; align-items: center;">
+                    <!-- 左侧 GIF -->
+                    <div style="width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="static/images/ttt/pre2.gif" alt="Before TTT" style="width: 100%; height: 100%; object-fit: cover;">
+                      <p class="has-text-centered mt-2 has-text-weight-semibold" style="color: #485fc7; font-size: 0.9rem;">
+                        Without Test-Time Training
+                      </p>
+                    </div>
+                    
+                    <!-- 中间的箭头 -->
+                    <div style="text-align: center;">
+                      <span class="icon">
+                        <i class="fas fa-arrow-right" style="font-size: 1.8rem; color: #FF6347; 
+                           text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+                           animation: arrow-pulse 2s infinite;"></i>
+                      </span>
+                    </div>
+                    
+                    <!-- 右侧 GIF -->
+                    <div style="width: 100%; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                      <img src="static/images/ttt/after2.gif" alt="After TTT" style="width: 100%; height: 100%; object-fit: cover;">
+                      <p class="has-text-centered mt-2 has-text-weight-semibold" style="color: #e6523a; font-size: 0.9rem;">
+                        With Test-Time Training
+                      </p>
+                    </div>
+                  </div>
+                  <p class="has-text-centered mt-3" style="font-size: 0.9rem; color: #555;">
+                    A <span style="color: purple; font-weight: bold; font-style: italic;">teedy bear</span> is 
+                    <span style="color: orange; font-weight: bold; font-style: italic;">playing guitar</span> on the Mars.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Paper poster -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-">
+            <h2 class="title is-3">Method</h2>
+            <div class="content has-text-justified">
+              <div>
+                <td colspan="3"><img src="static/images/pipeline.png" alt="" width="1000" /></td>
+              </div>
+              <p>The overall pipeline. We first train the LoRAs on the specific layers for appearance (a) and motion (b)
+                customization
+                individually. Then, we design a test-time training method to further improve the results when combining.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!--End paper poster -->
+  </section>
+  <!--End paper poster -->
 
-<!-- video preload="auto"carousel -->
-<section class="hero is-small">
+  <!-- video preload="auto"carousel -->
+  <section class="hero is-small">
     <div class="hero-body">
       <div class="columns is-centered has-text-centered">
         <div class="column custom-width">
@@ -204,22 +422,26 @@ be available.
             <div id="results-carousel" class="swiper" style="margin: 0 auto; max-width: 1024px; position: relative;">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <video preload="auto" poster="" id="video1" autoplay controls muted loop style="display: block; margin: 0 auto;" width="1024px">
+                  <video preload="auto" poster="" id="video1" autoplay controls muted loop
+                    style="display: block; margin: 0 auto;" width="1024px">
                     <source src="static/images/compare/compare1.mp4" type="video/mp4">
                   </video>
                 </div>
                 <div class="swiper-slide">
-                  <video preload="auto" poster="" id="video2" autoplay controls muted loop style="display: block; margin: 0 auto;" width="1024px">
+                  <video preload="auto" poster="" id="video2" autoplay controls muted loop
+                    style="display: block; margin: 0 auto;" width="1024px">
                     <source src="static/images/compare/compare2.mp4" type="video/mp4">
                   </video>
                 </div>
                 <div class="swiper-slide">
-                  <video preload="auto" poster="" id="video3" autoplay controls muted loop style="display: block; margin: 0 auto;" width="1024px">
+                  <video preload="auto" poster="" id="video3" autoplay controls muted loop
+                    style="display: block; margin: 0 auto;" width="1024px">
                     <source src="static/images/compare/compare3.mp4" type="video/mp4">
                   </video>
                 </div>
                 <div class="swiper-slide">
-                  <video preload="auto" poster="" id="video4" autoplay controls muted loop style="display: block; margin: 0 auto;" width="1024px">
+                  <video preload="auto" poster="" id="video4" autoplay controls muted loop
+                    style="display: block; margin: 0 auto;" width="1024px">
                     <source src="static/images/compare/compare4.mp4" type="video/mp4">
                   </video>
                 </div>
@@ -227,12 +449,14 @@ be available.
               <!-- Add Pagination -->
               <div class="swiper-pagination"></div>
               <!-- Add Navigation -->
-              <div class="swiper-button-next custom-next-button" style="position: absolute; top: 50%; transform: translateY(-50%); right: 10px;">
+              <div class="swiper-button-next custom-next-button"
+                style="position: absolute; top: 50%; transform: translateY(-50%); right: 10px;">
                 <span class="icon is-large">
                   <i class="fas fa-chevron-right" style="font-size: 2rem; color: #555;"></i>
                 </span>
               </div>
-              <div class="swiper-button-prev custom-prev-button" style="position: absolute; top: 50%; transform: translateY(-50%); left: 10px;">
+              <div class="swiper-button-prev custom-prev-button"
+                style="position: absolute; top: 50%; transform: translateY(-50%); left: 10px;">
                 <span class="icon is-large">
                   <i class="fas fa-chevron-left" style="font-size: 2rem; color: #555;"></i>
                 </span>
@@ -242,141 +466,147 @@ be available.
         </div>
       </div>
     </div>
-    <p align="center">Qualitative comparison of customized video generation with both subjects and motions. <br>Without guidance from additional videos, our method significantly outperforms in terms of concept combination.</p>
+    <p align="center">Qualitative comparison of customized video generation with both subjects and motions. <br>Without
+      guidance from additional videos, our method significantly outperforms in terms of concept combination.</p>
   </section>
-  
-  
-  
-  
-<!-- End video preload="auto"carousel -->
 
 
 
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column custom-width">
-          <h2 class="title is-3">References</h2>
-          <div class="content has-text-justified">
-            <p>
-              <a name="customdiffusion" id="customdiffusion"></a>
-              [1] Wei, Yujie, et al. "Dreamvideo: Composing your dream videos with customized subject and motion." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.
-            </p>
-            <p>
-              <a name="dreamvideo" id="dreamvideo"></a>
-              [2] Zhao, Rui, et al. "Motiondirector: Motion customization of text-to-video diffusion models." European Conference on Computer Vision. Springer, Cham, 2025.
-            </p>
-  
+
+  <!-- End video preload="auto"carousel -->
+
+
+
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column custom-width">
+            <h2 class="title is-3">References</h2>
+            <div class="content has-text-justified">
+              <p>
+                <a name="customdiffusion" id="customdiffusion"></a>
+                [1] Wei, Yujie, et al. "Dreamvideo: Composing your dream videos with customized subject and motion."
+                Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.
+              </p>
+              <p>
+                <a name="dreamvideo" id="dreamvideo"></a>
+                [2] Zhao, Rui, et al. "Motiondirector: Motion customization of text-to-video diffusion models." European
+                Conference on Computer Vision. Springer, Cham, 2025.
+              </p>
+
+            </div>
           </div>
         </div>
       </div>
-    </div>  
-  </div>  
-</section>
+    </div>
+  </section>
 
 
-<!--BibTex citation -->
-<section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
       @article{wu2024customttt,
         title={CustomTTT: Motion and Appearance Customized Video Generation via Test-Time Training},
-        author={},
-        journal={},
-        year={2025}
+        author={Bi, Xiuli and Lu, Jian and Liu, Bo and Cun, Xiaodong and Zhang, Yong and Li, WeiSheng and Xiao, Bin},
+        journal={arXiv preprint arXiv:2412.15646},
+        year={2024}
       }
     </code></pre>
-  </div>
-</section>
-<!--End BibTex citation -->
+    </div>
+  </section>
+  <!--End BibTex citation -->
 
-<footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
 
-          
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
-            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
 
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a>.
+              <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+  <!-- Statcounter tracking code -->
 
-    <!-- End of Statcounter Code -->
-    <script>
-      window.addEventListener('DOMContentLoaded', (event) => {
-        const videoWrappers = document.querySelectorAll('.video-wrapper');
-      
-        videoWrappers.forEach(wrapper => {
-          const defaultVideo = wrapper.querySelector('.default-video');
-          const aspectRatio = defaultVideo.videoWidth / defaultVideo.videoHeight;
-          const height = wrapper.offsetWidth / aspectRatio;
-      
-          wrapper.style.height = `${height}px`;
-      
-          wrapper.addEventListener('mouseenter', () => {
-            defaultVideo.pause();
-            hoverVideo.play();
-          });
-      
-          wrapper.addEventListener('mouseleave', () => {
-            defaultVideo.play();
-            hoverVideo.pause();
-          });
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      const videoWrappers = document.querySelectorAll('.video-wrapper');
+
+      videoWrappers.forEach(wrapper => {
+        const defaultVideo = wrapper.querySelector('.default-video');
+        const aspectRatio = defaultVideo.videoWidth / defaultVideo.videoHeight;
+        const height = wrapper.offsetWidth / aspectRatio;
+
+        wrapper.style.height = `${height}px`;
+
+        wrapper.addEventListener('mouseenter', () => {
+          defaultVideo.pause();
+          hoverVideo.play();
         });
-      }); 
-      $(document).ready(function() {
-        var carouselItems = $('.carousel .item');
-        var numItems = carouselItems.length;
-        var numVideos = 5;
-        var currentIndex = 0;
-    
-        $('.carousel').on('click', function() {
-          currentIndex++;
-          if (currentIndex + numVideos <= numItems) {
-            carouselItems.removeClass('active');
-            carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
-          } else {
-            currentIndex = 0;
-            carouselItems.removeClass('active');
-            carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
-          }
+
+        wrapper.addEventListener('mouseleave', () => {
+          defaultVideo.play();
+          hoverVideo.pause();
         });
-    
-        carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+      });
+    });
+    $(document).ready(function () {
+      var carouselItems = $('.carousel .item');
+      var numItems = carouselItems.length;
+      var numVideos = 5;
+      var currentIndex = 0;
+
+      $('.carousel').on('click', function () {
+        currentIndex++;
+        if (currentIndex + numVideos <= numItems) {
+          carouselItems.removeClass('active');
+          carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+        } else {
+          currentIndex = 0;
+          carouselItems.removeClass('active');
+          carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+        }
       });
 
-      document.addEventListener('DOMContentLoaded', () => {
-  new Swiper('#results-carousel', {
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-      delay: 5000,
-    },
-  });
-});
+      carouselItems.slice(currentIndex, currentIndex + numVideos).addClass('active');
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+      new Swiper('#results-carousel', {
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 5000,
+        },
+      });
+    });
 
 
-    </script>
+  </script>
 </body>
+
 </html>
